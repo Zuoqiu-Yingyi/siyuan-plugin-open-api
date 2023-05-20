@@ -1,5 +1,9 @@
 > **[READ ONLY] Subtree split of the [siyuan-packages-monorepo](https://github.com/Zuoqiu-Yingyi/siyuan-packages-monorepo) [/workspace/plugins/open-api](https://github.com/Zuoqiu-Yingyi/siyuan-packages-monorepo/tree/main/workspace/plugins/open-api)**
 
+## USER GUIDE
+
+[简体中文](./public//README_zh_CN.md) \| [English](./public/README.md)
+
 ## DEVELOPMENT GUIDE
 
 ### Release Steps
@@ -12,6 +16,6 @@
 3. Create a pull request from `dev` branch to `main` branch in sub-repository.
 4. Merge the pull request.
 5. Await for the CD workflow `release-please.yml` to complete, it will create a *release pull request* in sub-repository.
-6. Merge the *release pull request*, it will create a new *release* with [changelog](./CHANGELOG.md) and a new *tag* with [semantic version](https://semver.org/) in sub-repository.
+6. Merge the *release pull request*, it will create a new *pre-release* with current [changelog](./CHANGELOG.md) and a new *tag* with [semantic version](https://semver.org/) in sub-repository.
 7. Await for the CD workflow `build.yml` to complete, it will update the distribution files to `publish` branch in sub-repository.
-8. Await for the CD workflow `release-distribution.yml` to complete, it will create a new *release* with asset named `package.zip` and a *tag* timestamp in sub-repository.
+8. Await for the CD workflow `release-distribution.yml` to complete, it will create a new *pre-release* with asset named `package.zip` and a *tag* with timestamp in sub-repository.
