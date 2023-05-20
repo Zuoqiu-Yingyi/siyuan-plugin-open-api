@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.5](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.4...v1.0.5) (2023-05-20)
+
+
+### Documentation
+
+* **open-api:** 更新 `README.md` | Update `README.md`. ([973128f](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/973128f0cc39b900caf24b42ff6cc549718b5fc4))
+
+
+### Miscellaneous
+
+* **open-api:** release v1.0.5 ([247580f](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/247580ffe3e00b15fae31246e6b34e89043d4cc1))
+* **open-api:** 修复清单文件中 `readme` 项文件名称错误 | Fix the file name error of the `readme` item in the manifest file. ([b5f6ca8](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/b5f6ca8373a235b48ceab8dd2999292cc973c5e7))
+* **open-api:** 更新 `README.md` | Update `README.md`. ([9968f1d](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/9968f1d76c3afc2947f16b12d97d7f1f029c6a21))
+
 ## [1.0.4](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.3...v1.0.4) (2023-05-20)
 
 
