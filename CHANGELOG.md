@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.1...v1.0.2) (2023-05-20)
+
+
+### Continuous Integration
+
+* **open-api:** 运行 `build.yml` 完成后调用 `release-distribution.yml` | Call `release-distribution.yml` after `build.yml` is completed. ([e2a5f1a](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/e2a5f1ace1ce37583942f6925557f6bda54f92f4))
+
+
+### Miscellaneous
+
+* **open-api:** release v1.0.2 ([efeaff6](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/efeaff6441dcac7ca7730aa201dccbacf6efc213))
+
 ## [1.0.1](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.0...v1.0.1) (2023-05-20)
 
 
