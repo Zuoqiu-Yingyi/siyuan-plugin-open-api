@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.4](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.3...v1.0.4) (2023-05-20)
+
+
+### Continuous Integration
+
+* **open-api:** 修复 `release-distribution.yml` 发布时标签关联分支错误问题 | Fix the issue of wrong branch associated with tag when `release-distribution.yml` is released. ([f2852da](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/f2852da257b918dd9f879964de940a89f46381ec))
+
+
+### Miscellaneous
+
+* **open-api:** release v1.0.4 ([5081faf](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/5081faf8e2123bd87823ead62e4e037f0d71a528))
+
 ## [1.0.3](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.2...v1.0.3) (2023-05-20)
 
 
