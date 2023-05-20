@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.0.1](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.0...v1.0.1) (2023-05-20)
+
+
+### Build System
+
+* 修复 `split.ps1` 脚本 | Fix `split.ps1` script. ([13e615c](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/13e615caf86f0775dce380aeb75430970e62c828))
+* 更新依赖 | Update dependencies. ([f174955](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/f17495508dc7c6b580a08c521de2d29b3df814b6))
+
+
+### Continuous Integration
+
+* **open-api:** 更新 `release-please.yml` CD 配置使其生成 pre-release | Update `release-please.yml` CD configuration to generate pre-release. ([34a0846](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/34a0846cbc57629991eceba2fcc3b32464bd4cee))
+
+
+### Documentation
+
+* **open-api:** 更新 `README*.md` | Update `README*.md`. ([a12d7db](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/a12d7dbab7dd1e648c863d4d8e4772c15e3dde63))
+
+
+### Miscellaneous
+
+* **open-api:** release v1.0.1 ([1cb78cb](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/1cb78cbfb7b7f15e5ca31a96ed9796cc1a860b0d))
+* **open-api:** remove open-api module ([277e624](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/277e6241b686b83f1b0a1b2644cda6b990628f4f))
+
 ## 1.0.0 (2023-05-19)
 
 
