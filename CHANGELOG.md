@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.3](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.2...v1.0.3) (2023-05-20)
+
+
+### Documentation
+
+* **open-api:** 更新 `README*.md` | Update `README*.md`. ([89c8fde](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/89c8fde5b88dedc70ecda1b628d6d81b3c90f95f))
+
+
+### Continuous Integration
+
+* **open-api:** 修复 `release-distribution.yml` 打包时目标分支错误问题 | Fix the issue of wrong target branch when `release-distribution.yml` is packaged. ([7d8ef5b](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/7d8ef5b6674e2d9e86a00e3b7d676d354ddde5ee))
+
+
+### Miscellaneous
+
+* **open-api:** release v1.0.3 ([45efae4](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/commit/45efae4bc2137cf7ced248b1e9324fc35d51534e))
+
 ## [1.0.2](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/compare/v1.0.1...v1.0.2) (2023-05-20)
 
 
