@@ -2,7 +2,7 @@
     "name": "open-api",
     "author": "Zuoqiu Yingyi",
     "url": "https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "displayName": {
         "default": "🛠 Open API",
         "zh_CN": "🛠 开放 API",
@@ -15,8 +15,8 @@
     },
     "readme": {
         "default": "README.md",
-        "zh_CN": "README.zh_CN.md",
-        "zh_CHT": "README.zh_CN.md"
+        "zh_CN": "README_zh_CN.md",
+        "zh_CHT": "README_zh_CN.md"
     },
     "funding": {
         "openCollective": "",
