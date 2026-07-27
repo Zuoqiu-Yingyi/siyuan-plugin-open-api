@@ -2,6 +2,7 @@
 <img alt="icon" src="./icon.png" style="width: 8em; height: 8em;">
 
 ---
+
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/siyuan-plugin-open-api?include_prereleases&style=flat-square)](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/siyuan-plugin-open-api?style=flat-square)](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/releases/latest)
 [![GitHub License](https://img.shields.io/github/license/Zuoqiu-Yingyi/siyuan-plugin-open-api?style=flat-square)](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/blob/main/LICENSE)
@@ -11,9 +12,11 @@
 [![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/siyuan-plugin-open-api/total?style=flat-square)](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-open-api/releases)
 
 ---
+
 [简体中文](./README_zh_CN.md) \| English
 
 ---
+
 </div>
 
 # Open API
@@ -28,7 +31,16 @@ Open the plugin's API to the global variable `globalThis.openAPI` / `window.open
 
 - `openAPI`: Global variable
   - `plugin`: Plugin object
-  - `siyuan`: SiYuan plugin api interface
+  - `siyuan`: SiYuan plugin API interface
+  - `client`: SiYuan kernel API client instance
+    - Please refer to for details
+      - [siyuan-community/siyuan-sdk](https://github.com/siyuan-community/siyuan-sdk)
+      - [@siyuan-community/siyuan-sdk - npm](https://www.npmjs.com/package/@siyuan-community/siyuan-sdk)
+  - `fs`: SiYuan file system instance
+    - Please refer to for details
+      - [siyuan-community/siyuan-sdk](https://github.com/siyuan-community/siyuan-sdk)
+      - [@siyuan-community/siyuan-sdk - npm](https://www.npmjs.com/package/@siyuan-community/siyuan-sdk)
+      - [File System Standard](https://fs.spec.whatwg.org/)
 
 ## CHANGELOG
 

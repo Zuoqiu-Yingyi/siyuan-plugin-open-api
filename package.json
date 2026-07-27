@@ -1,18 +1,16 @@
 {
     "name": "open-api",
-    "private": true,
-    "version": "1.0.5",
     "type": "module",
+    "version": "1.0.5",
+    "private": true,
     "scripts": {
-        "build": "tsc && vite build"
-    },
-    "devDependencies": {
-        "typescript": "^5.0.4",
-        "vite": "^4.3.8"
+        "build": "vite build",
+        "build:dev": "vite build --sourcemap inline",
+        "lint": "eslint --max-warnings 0 .",
+        "format": "eslint --fix ."
     },
     "dependencies": {
         "@workspace/types": "workspace:^",
-        "@workspace/utils": "workspace:^",
-        "siyuan": "workspace:^"
+        "@workspace/utils": "workspace:^"
     }
 }
