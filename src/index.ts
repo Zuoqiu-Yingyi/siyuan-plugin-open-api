@@ -43,17 +43,22 @@ export default class OpenApiPlugin extends siyuan.Plugin {
         );
     }
 
-    public override onload() {
-        OpenApiPlugin.GLOBAL[OpenApiPlugin.PROPERTY_NAME] = {
-            siyuan,
-            plugin: this,
-            client: this.client,
-            fs: this.fs,
+    public override async onload(): Promise<void> {
+        try {
+            OpenApiPlugin.GLOBAL[OpenApiPlugin.PROPERTY_NAME] = {
+                siyuan,
+                plugin: this,
+                client: this.client,
+                fs: this.fs,
 
-            require,
-            exports,
-            module,
-        };
+                require,
+                exports,
+                module,
+            };
+        }
+        catch (error) {
+            this.logger.error(error);
+        }
     }
 
     public override onunload() {
